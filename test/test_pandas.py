@@ -1,8 +1,8 @@
 # test_pandas_exercises.py
 
 import pandas as pd
-# import pandas_ex.exercises as ex
-import solutions.solution_pandas as ex
+import pandas_ex.exercises as ex
+# import solutions.solution_pandas as ex
 
 # Fixtures
 df1 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
