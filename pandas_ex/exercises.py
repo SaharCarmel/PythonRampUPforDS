@@ -2,6 +2,7 @@
 
 import pandas as pd
 
+
 def create_dataframes():
     """
     Create sample Pandas DataFrames for manipulating.
@@ -11,7 +12,7 @@ def create_dataframes():
     df1: DataFrame of shape (5, 5)
         DataFrame with random normal values
     df2: DataFrame
-        DataFrame created from dict of dicts
+        DataFrame created from dict of lists
     df3: DataFrame
         DataFrame read from CSV file
     """
@@ -29,6 +30,7 @@ def create_dataframes():
 
 
 def dataframe_operations(df):
+
     """
     Perform operations like sorting, renaming, adding columns.
     
